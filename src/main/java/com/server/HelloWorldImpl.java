@@ -13,7 +13,7 @@ public class HelloWorldImpl implements HelloWorld {
 
 
     public String sayHi(String text) {
-        System.out.println("sayHi called from HellloService");
+        System.out.println("sayHi is now called from HellloService");
         return "Hello " + text;
     }
 
