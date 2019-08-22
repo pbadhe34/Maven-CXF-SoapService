@@ -14,7 +14,7 @@ public class HelloWorldImpl implements HelloWorld {
 
     public String sayHi(String text) {
         System.out.println("sayHi is now called from HellloService");
-        return "Welcome " + text;
+        return "Hello " + text;
     }
 
     public String sayHiToUser(User user) {
